@@ -1,0 +1,7 @@
+Nom             Num-PCs         Xarxa           Rang
+Produccio       9               172.16.10.0     .51 a .60
+Administracio   0               172.16.10.128   - (.162)
+Comercial       0               172.16.10.192   - (.232)
+PLC             15              172.16.11.0     .5 a .19
+Qualitat        2               172.16.11.64    .82 a .83
+Expedicions     2               172.16.11.96    .105 a .106
