@@ -1,5 +1,5 @@
 Nom             Num-PCs         Xarxa           Rang
-Produccio       11              172.16.10.0     .61 a .71
+Produccio       11              172.16.10.0     .60 a .70
 Administracio   0               172.16.10.128   -
 Comercial       0               172.16.10.192   -
 PLC             20              172.16.11.0     .20 a .39
