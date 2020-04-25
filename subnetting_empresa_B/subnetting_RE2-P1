@@ -1,4 +1,4 @@
-Nom                   Num-PCs	     Xarxa              Rang
+Nom                   Num-PCs      Xarxa              Rang
 Administració         6            172.16.20.0        .1 a .7
 Comercial             9            172.16.20.64       .65 a .74
 Enginyeria            0            172.16.20.96       -
