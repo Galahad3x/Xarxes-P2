@@ -3,5 +3,5 @@ Produccio       15              172.16.10.0     .25 a .39
 Administracio   11              172.16.10.128   .144 a .154
 Comercial       9               172.16.10.192   .217 a .225
 PLC             0               172.16.11.0     -
-Qualitat        7               172.16.11.64    .71 a .76
+Qualitat        7               172.16.11.64    .71 a .77
 Expedicions     0               172.16.11.96    -
