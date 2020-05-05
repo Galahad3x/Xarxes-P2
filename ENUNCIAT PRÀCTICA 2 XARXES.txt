@@ -89,8 +89,11 @@ Aquest últim (Alcatel OS 7XXX) s’ha d’emprar com a nucli de la xarxa i s’
 
 
 ****************DUBTES****************
-• Per proporcionar cobertura sense fil s’instal·larà un sistema de punts d’accés lleugers gestionats per una controladora. El sistema ha de permetre als empleats connectivitat a la xarxa corporativa en totes les dependències. Tanmateix s’ha de proporcionar connectivitat exterior al personal aliè a l’empresa mitjançant un portal captiu. (pàgina 3 segon punt).
-• L’equipament encarregat de l’encaminament intern i extern tb ha de donar servei a usuaris (tasques de nivell 2). (pàgina 3 sisè punt última frase).
+• Per proporcionar cobertura sense fil s’instal·larà un sistema de punts d’accés lleugers gestionats per una controladora.
+  El sistema ha de permetre als empleats connectivitat a la xarxa corporativa en totes les dependències.
+  Tanmateix s’ha de proporcionar connectivitat exterior al personal aliè a l’empresa mitjançant un portal captiu. (pàgina 3 segon punt).
+• L’equipament encarregat de l’encaminament intern i extern tb ha de donar servei a usuaris (tasques de nivell 2).
+  (pàgina 3 sisè punt última frase).
 
 
 ****Fase 1****
