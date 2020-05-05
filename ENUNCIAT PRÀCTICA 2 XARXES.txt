@@ -16,8 +16,8 @@ Cinc departaments:
   d’aquesta xarxa per poder gestionar-los remotament.
 El Centre de Gestió de Xarxa --> situat a R-EA-PB. 4 punts de xarxa x la gestió de l’equipament.
 • Encaminament intern ha d’estar separat del encaminament extern.
-Encaminament extern  equip nivell 3 situat a PB edifici A.
-Encaminament intern  distribuït entre equips de nivell 3 de la P1 i la P2 de l’edifici A.
+Encaminament extern --> equip nivell 3 situat a PB edifici A.
+Encaminament intern --> distribuït entre equips de nivell 3 de la P1 i la P2 de l’edifici A.
 L’equipament encarregat de l’encaminament intern i extern tb ha de donar servei a usuaris (tasques de nivell 2).
 • Equipament per implementar xarxa comunicacions: 
   - 3 Alcatel OS 6602-24
@@ -37,7 +37,7 @@ Ha de ser el node arrel de totes les VLANs pel procés STP.
 • Sistema climatització (tot el edifici A) controlat per un equip que està a l’edifici A-P2.
   Gestió d’aquest equipament = TCP/IP. Adreçament = rang assignat a l’empresa.
   Xarxa de comunicació dels equips totalment aïllada de la resta.
-• Connexió servei MarcoLAN a R-EA-PB  enllaç fibra òptica 1 Gbps.
+• Connexió servei MarcoLAN a R-EA-PB --> enllaç fibra òptica 1 Gbps.
 
 
 
@@ -71,9 +71,9 @@ Nomenclatura Racks:
 • Cablatge vertical --> FTP cat. 6, uneix cada rack amb el rack de la PB.
 • Interconnexió edificis --> Cable STP cat.
   5 des de RE2-PB a cadascun dels altres 2 edificis.
-• Enllaços entre racks  100Mbps excepte la unió entre els 2 edificis (200Mbps).
+• Enllaços entre racks --> 100Mbps excepte la unió entre els 2 edificis (200Mbps).
 • Cada dep --> Domini de broadcast. Es comunica amb la resta de deps amb encaminament nivell 3.
-  Adreçament  xarxa 172.16.20.0/24.
+  Adreçament --> xarxa 172.16.20.0/24.
 • Connexió a MacroLAN --> fibra òptica 1 Gbps que finalitza a RE2-PB.
 • Encaminament intern ha d’estar separat del encaminament extern.
   Encaminament extern --> equip nivell 3 situat a PB edifici 2.
