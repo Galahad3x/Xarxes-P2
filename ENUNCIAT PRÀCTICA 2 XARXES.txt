@@ -20,7 +20,7 @@ Encaminament extern --> equip nivell 3 situat a PB edifici A.
 Encaminament intern --> distribuït entre equips de nivell 3 de la P1 i la P2 de l’edifici A.
 L’equipament encarregat de l’encaminament intern i extern tb ha de donar servei a usuaris (tasques de nivell 2).
 • Equipament per implementar xarxa comunicacions: 
-  - 3 Alcatel OS 6602-24
+  - 3+1 Alcatel OS 6602-24
   - 1 Alcatel OS 6450
   - 1 Alcatel OS 7XXX
 Aquest últim (Alcatel OS 7XXX) s’ha d’emprar com a nucli de la xarxa i s’ha d’instal·lar a PB de l’edifici A.
