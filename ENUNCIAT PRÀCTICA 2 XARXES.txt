@@ -1,0 +1,109 @@
+****************EMPRESA 1****************
+Cinc departaments: 
+   1) Producció
+   2) comercial
+   3) Administració
+   4) Qualitat
+   5) Expedicions
+• Cada depart = domini broadcast independent. Connectat amb resta departs. encaminament nivell 3.
+• Xarxa 172.16.10.0/23 per l'adreçament intern.
+• Interconnexió dels racks = enllaç de 100Mbps.
+• Sistemes de seguretat i vigilància = es comuniquen entre ells mitjançant protocol propietari de
+  nivell de xarxa (me’n oblido, NO sé com es el protocol) que té Ethernet com a protocol de la capa d’enllaç.
+  Tots els equips han de tenir connectivitat entre ells però han d’estar aïllats de la resta de la xarxa.
+  Només es poden connectar dispositius de la seva propietat.
+• Gestió equipament de xarxa --> adreçament 192.168.5.0/27. Tots els equips de xarxa han de tenir una IP
+  d’aquesta xarxa per poder gestionar-los remotament.
+El Centre de Gestió de Xarxa --> situat a R-EA-PB. 4 punts de xarxa x la gestió de l’equipament.
+• Encaminament intern ha d’estar separat del encaminament extern.
+Encaminament extern  equip nivell 3 situat a PB edifici A.
+Encaminament intern  distribuït entre equips de nivell 3 de la P1 i la P2 de l’edifici A.
+L’equipament encarregat de l’encaminament intern i extern tb ha de donar servei a usuaris (tasques de nivell 2).
+• Equipament per implementar xarxa comunicacions: 
+  - 3 Alcatel OS 6602-24
+  - 1 Alcatel OS 6450
+  - 1 Alcatel OS 7XXX
+Aquest últim (Alcatel OS 7XXX) s’ha d’emprar com a nucli de la xarxa i s’ha d’instal·lar a PB de l’edifici A.
+Ha de ser el node arrel de totes les VLANs pel procés STP.
+
+
+****************EDIFICI A****************
+• 3 plantes, 300m2 per planta (30x10m)
+• Cada planta --> cablatge horitzontal independent que finalitza en un rack.
+• Racks: R-EA-PB (Rack Edifici A Planta B), R-EA-P1, R-EA-P2 (rack edifici A planta x)
+• Cablatge vertical --> 4 enllaços STP categoria 7 i uneix els racks P1 i P2 amb el de la PB.
+• 2 servidors de seguretat situats a P1.
+• Sala multimèdia a PB --> Els 5 punts de xarxa han de tenir una assignació dinàmica VLAN.
+• Sistema climatització (tot el edifici A) controlat per un equip que està a l’edifici A-P2.
+  Gestió d’aquest equipament = TCP/IP. Adreçament = rang assignat a l’empresa.
+  Xarxa de comunicació dels equips totalment aïllada de la resta.
+• Connexió servei MarcoLAN a R-EA-PB  enllaç fibra òptica 1 Gbps.
+
+
+
+****************EDIFICI B****************
+• Nau industrial 7500m2 (150x50m) amb altell de 84m2 (12x7m) situat a la part + prop ed.A
+• Altell disposa de cablatge horitzontal independent que finalitza en un rack (R-EB-P1)
+• Cablatge horitzontal de la nau ind. --> dividit en 2 racks (R-EB-P0-0 i R-EB-P0-1) x tema distància.
+• Cablatge horitzontal --> cable FTP categoria 6.
+• R-EB-P0-1 connectat a R-EB-P0-0 mitjançant 6 enllaços de cable STP cat. 7.
+• R-EB-P1 i R-EB-P0-0 connectats a R-EA-PB usant 4 enllaços STP cat. 7 cadascun.
+• PLC's --> aïllats resta de xarxes de l'empresa. Comunicació entre ells i equip control situat a R-EB-P0-0.
+  Per reduïr latència entre PLC's --> enllaç del seu domini de broascast entre R-EB-P0-0 i R-EB-P0-1 = 300Mbps.
+• A l’altell --> Sistema climatització
+
+
+****************EMPRESA 2****************
+2 edificis i 1 nau industrial --> Mateixa parcel·la, cadascun separat 40m del altre.
+Edifici 1 = laboratoris i seminaris per formació. Edifici 2 = oficines i despatxos de direcció departs.
+Nau industrial = magatzem i disposa d’un espai d’oficines.
+Sis departaments: 
+   1) Enginyeria
+   2) Administració
+   3) Serveis pre-venda
+   4) Serveis post-venda
+   5) Magatzem
+   6) Comercial
+• En cada planta --> cablatge horitzontal cable FTP cat. 6.
+Nomenclatura Racks:
+1) Pels 2 edificis --> RE[numero edifici]-P[planta].
+2) Per la nau industrial --> RNI
+• Cablatge vertical --> FTP cat. 6, uneix cada rack amb el rack de la PB.
+• Interconnexió edificis --> Cable STP cat.
+  5 des de RE2-PB a cadascun dels altres 2 edificis.
+• Enllaços entre racks  100Mbps excepte la unió entre els 2 edificis (200Mbps).
+• Cada dep --> Domini de broadcast. Es comunica amb la resta de deps amb encaminament nivell 3.
+  Adreçament  xarxa 172.16.20.0/24.
+• Connexió a MacroLAN --> fibra òptica 1 Gbps que finalitza a RE2-PB.
+• Encaminament intern ha d’estar separat del encaminament extern.
+  Encaminament extern --> equip nivell 3 situat a PB edifici 2.
+  Encaminament intern --> equips de nivell 3 de la PB edifici 1.
+  L’equipament encarregat de l’encaminament intern i extern tb ha de donar servei a usuaris (tasques de nivell 2).
+• Gestió equip xarxa --> des d’una xarxa aïllada de la resta de departs i de l’exterior amb adreçament 192.168.18.0/28.
+  Tots els equips de xarxa han de tenir una IP d’aquesta xarxa per poder gestionar-los remotament.
+  Centre de Gestió de Xarxa --> situat a RE2-PB. 4 punts de xarxa per la gestió de l’equipament.
+• Equipament per implementar xarxa comunicacions: 
+  - 5 Alcatel OS 6602-24
+  - 1 Alcatel OS 7XXX
+Aquest últim (Alcatel OS 7XXX) s’ha d’emprar com a nucli de la xarxa i s’ha d’instal·lar a PB de l’edifici 2. Ha de ser el node arrel de totes les VLANs pel procés STP.
+
+
+****************DUBTES****************
+• Per proporcionar cobertura sense fil s’instal·larà un sistema de punts d’accés lleugers gestionats per una controladora. El sistema ha de permetre als empleats connectivitat a la xarxa corporativa en totes les dependències. Tanmateix s’ha de proporcionar connectivitat exterior al personal aliè a l’empresa mitjançant un portal captiu. (pàgina 3 segon punt).
+• L’equipament encarregat de l’encaminament intern i extern tb ha de donar servei a usuaris (tasques de nivell 2). (pàgina 3 sisè punt última frase).
+
+
+****Fase 1****
+• Disseny de nivell 2:
+  - Determinar els equips que s’instal·laran en cada rack.
+  - Especificar la configuració de VLANs de cada equip
+  - Indicar l’assignació de ports de cada equip.
+  - Descriure les configuracions addicionals de nivell 2 que cal fer en cada equip.
+  - Generar un esquema físic amb el connexionat de tot l’equipament.
+• Disseny de nivell 3:
+  - Distribució de l’adreçament entre els diferents departaments i serveis
+  - Assignació d’adreçament IP als diferents equips de xarxa
+  - Confecció de les taules d’encaminament de nivell 3.
+  - Generar un esquema lògic de la xarxa.
+****Fase 2****
+Empresa 1.....etcetc
