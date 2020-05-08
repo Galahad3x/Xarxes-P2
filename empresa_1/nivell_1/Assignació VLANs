@@ -8,5 +8,5 @@ Vlan 7 => Producció
 Vlan 8 => Qualitat
 Vlan 9 => Climatització
 Vlan 10 => Seguretat
-Vlan 11 => Wi-fi
+Vlan 11 => Wi-fi (xarxa sense fil)
 En les tres ultimes VLAN s'ha de deixar un port extra per als seus respectius servidors
