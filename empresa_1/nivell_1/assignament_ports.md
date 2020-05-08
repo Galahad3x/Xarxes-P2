@@ -8,8 +8,8 @@
 | R-EB-P0-1 | 1-R-EB-P0-0                                  |  2-5 | 6-13 |   14-15   |       -       |       16-17      |            -            |
 | R-EB-P1   | 1-R-EA-P0                                    |  2-4 |   5  |    6-7    |       8       |         9        |            -            |
 
-3 equips de seguretat a l'edifici A a cada planta
-4 equips de seguretat a l'edifici B als rack P0-0 i P0-1 i 2 equips a l'altell
-2 equips de climatització per cada planta de l'edifici A i 1 equip a l'altell
-4 equips de WLAN a l'edifici A, 2 equips a la planta baixa de l'edifici B i 1 equip a l'altell
-5 equips sala multimèdia
+3 equips de seguretat a l'edifici A a cada planta.
+4 equips de seguretat a l'edifici B als rack P0-0 i P0-1 i 2 equips a l'altell.
+2 equips de climatització per cada planta de l'edifici A i 1 equip a l'altell.
+4 equips de WLAN a l'edifici A, 2 equips a la planta baixa de l'edifici B i 1 equip a l'altell.
+5 equips sala multimèdia.
