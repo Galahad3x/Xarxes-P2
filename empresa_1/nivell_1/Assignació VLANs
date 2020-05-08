@@ -1,0 +1,12 @@
+Vlan 1 => LLiure, per evitar que qualsevol equip que es connecti a un port lliure no tingui accés a la resta de la xarxa.
+Vlan 2 => Gestió de la xarxa
+Vlan 3 => Administració
+Vlan 4 => Comercial
+Vlan 5 => Expedicions
+Vlan 6 => PLC
+Vlan 7 => Producció
+Vlan 8 => Qualitat
+Vlan 9 => Climatització
+Vlan 10 => Seguretat
+Vlan 11 => Wi-fi
+En les tres ultimes VLAN s'ha de deixar un port extra per als seus respectius servidors
