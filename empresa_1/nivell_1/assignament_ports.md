@@ -1,5 +1,5 @@
 # Assignament Ports Nivell 1 - Empresa 1
-|    Rack   |                 Altres Racks                 |  PCs | PLCs | Seguretat | Climatització | Xarxa sense fils |          Extra          |
+|    Rack   |                 Altres Racks connectats      |  PCs | PLCs | Seguretat | Climatització | Xarxa sense fils |          Extra          |
 |:---------:|:--------------------------------------------:|:----:|:----:|:---------:|:-------------:|:----------------:|:-----------------------:|
 | R-EA-PB   | 1-R-EA-P1, 2-R-EA-P2, 3-R-EB-P1, 4-R-EB-P0-0 | 5-13 |   -  |   14-16   |     17-18     |       19-22      | 23-27 (Sala multimèdia) |
 | R-EA-P1   | 1-R-EA-P0                                    | 2-12 |   -  |   13-15   |     16-17     |       18-19      |            -            |
@@ -13,3 +13,4 @@
 2 equips de climatització per cada planta de l'edifici A i 1 equip a l'altell.
 4 equips de WLAN a l'edifici A, 2 equips a la planta baixa de l'edifici B i 1 equip a l'altell.
 5 equips sala multimèdia.
+El nombre de PCs i de PLCs son els actius no els previstos.
