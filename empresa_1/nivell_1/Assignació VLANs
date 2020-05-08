@@ -1,14 +1,14 @@
-Vlan 1 => LLiure, per evitar que qualsevol equip que es connecti a un port lliure no tingui accés a la resta de la xarxa.
-Vlan 2 => Gestió de la xarxa
-Vlan 3 => Administració
-Vlan 4 => Comercial
-Vlan 5 => Expedicions
-Vlan 6 => PLC
-Vlan 7 => Producció
-Vlan 8 => Qualitat
-Vlan 9 => Climatització
-Vlan 10 => Seguretat
-Vlan 11 => Wi-fi (xarxa sense fil)
-Vlan 12 => Sala multimèdia
+Vlan 1 => LLiure, per evitar que qualsevol equip que es connecti a un port lliure no tingui accés a la resta de la xarxa. (Estàtica)
+Vlan 2 => Gestió de la xarxa (Estàtica)
+Vlan 3 => Administració (Estàtica)
+Vlan 4 => Comercial (Estàtica)
+Vlan 5 => Expedicions (Estàtica)
+Vlan 6 => PLC (Estàtica)
+Vlan 7 => Producció (Estàtica)
+Vlan 8 => Qualitat (Estàtica)
+Vlan 9 => Climatització (Estàtica)
+Vlan 10 => Seguretat (Estàtica)
+Vlan 11 => Wi-fi (xarxa sense fil) (Estàtica)
+Vlan 12 => Sala multimèdia (Dinàmica)
 En les tres ultimes VLAN s'ha de deixar un port extra per als seus respectius servidors
-Totes les Vlan han de ser estàtiques perquè el administrador de xarxa administra manualment els ports, menys la sala multimèdia que tindrà una Vla dinàmica de manera que el switch decideixi a quina Vlan connectar segons els critèris configurats per l'administrador.
+Totes les Vlan han de ser estàtiques perquè el administrador de xarxa administra manualment els ports,menys la sala multimèdia que tindrà una Vla dinàmica de manera que el switch decideixi a quina Vlan connectar segons els critèris configurats per l'administrador.
