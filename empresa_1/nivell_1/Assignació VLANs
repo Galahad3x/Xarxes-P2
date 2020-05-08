@@ -9,4 +9,6 @@ Vlan 8 => Qualitat
 Vlan 9 => Climatització
 Vlan 10 => Seguretat
 Vlan 11 => Wi-fi (xarxa sense fil)
+Vlan 12 => Sala multimèdia
 En les tres ultimes VLAN s'ha de deixar un port extra per als seus respectius servidors
+Totes les Vlan han de ser estàtiques perquè el administrador de xarxa administra manualment els ports, menys la sala multimèdia que tindrà una Vla dinàmica de manera que el switch decideixi a quina Vlan connectar segons els critèris configurats per l'administrador.
