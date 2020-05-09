@@ -5,7 +5,7 @@ vlan 2 name "Gestio de la xarxa"
 vlan 5 name "Expedicions"
 vlan 5 port default 1/3
 vlan 6 name "PLC"
-vlan 6 port default 1/8-13
+vlan 6 port default 1/8-14
 vlan 7 name "Produccio"
 vlan 7 port default 1/4-6
 vlan 8 name "Qualitat"
