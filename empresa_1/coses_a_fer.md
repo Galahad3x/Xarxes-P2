@@ -1,8 +1,8 @@
 # COSES A FER EMPRESA 1
 ### Nivell 2:
-- Creació VLANs per cada departament necessari a cada switch + PLCs, Seguretat, Climatització i Xarxa sense fils
+- (FET) Creació VLANs per cada departament necessari a cada switch + PLCs, Seguretat, Climatització i Xarxa sense fils
 
-- Trunk ports per 802.1Q (https://www.youtube.com/watch?v=GDAdQNf87hU)
+- (FET) Trunk ports per 802.1Q (https://www.youtube.com/watch?v=GDAdQNf87hU)
   - Trunk Ports estan configurats als links entre switches en els que hem de transportar informació entre múltiples VLANS
   - Quan transmet informació d'una VLAN a una altra, afegeix el tag amb el ID de VLAN destí
   - El switch receptor només redireccionarà el tràfic d'informació als ports d'aquesta VLAN
