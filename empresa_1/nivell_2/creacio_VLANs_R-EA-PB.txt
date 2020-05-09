@@ -7,7 +7,7 @@ vlan 3 port default 1/5-7
 vlan 4 name "Comercial"
 vlan 4 port default 1/8-11
 vlan 5 name "Expedicions"
-vlan 4 port default 1/12-13
+vlan 5 port default 1/12-13
 vlan 6 name "PLC"
 vlan 7 name "Produccio"
 vlan 8 name "Qualitat"
