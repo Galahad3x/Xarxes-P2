@@ -1,0 +1,20 @@
+# Suposem que l'estat dels directoris és correcte
+
+vlan 2 name "Gestio de la xarxa"
+# Cervera quins ports li fiquem
+vlan 3 name "Administracio"
+vlan 3 port default 1/5-7
+vlan 4 name "Comercial"
+vlan 4 port default 1/8-11
+vlan 5 name "Expedicions"
+vlan 4 port default 1/12-13
+vlan 6 name "PLC"
+vlan 7 name "Produccio"
+vlan 8 name "Qualitat"
+vlan 9 name "Climatitzacio"
+vlan 9 port default 1/19-20
+vlan 10 name "Seguretat"
+vlan 10 port default 1/14-18
+vlan 11 name "Xarxa sense fil"
+vlan 11 port default 1/21-24
+vlan 12
