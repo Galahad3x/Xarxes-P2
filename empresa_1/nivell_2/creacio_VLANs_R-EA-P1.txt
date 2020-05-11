@@ -20,6 +20,8 @@ vlan 9 802.1q 1/1
 vlan 10 name "Seguretat"
 vlan 10 port default 1/13-15
 vlan 10 802.1q 1/1
+port-security 1/13-15 enable
+port-security 1/13-15 mac low 68:fc:b3:00:00:00 high 68:fc:b3:ff:ff:ff
 vlan 11 name "Xarxa sense fil"
 vlan 11 port default 1/18-19
 vlan 11 802.1q 1/1
