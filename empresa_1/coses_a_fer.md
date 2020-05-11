@@ -15,6 +15,6 @@
   
 - Definir interfaces
 
-- Configurar LPS a la VLAN de Seguretat
+- (FET) Configurar LPS a la VLAN de Seguretat
 
 - Mirar com configurar Spanning Tree
