@@ -1,7 +1,6 @@
   # Suposem que l'estat dels directoris és correcte
 
 vlan 2 name "Gestio de la xarxa"
-# Cervera quins ports li fiquem
 vlan 4 name "Comercial"
 vlan 4 port default 1/2
 vlan 4 802.1q 1/1
