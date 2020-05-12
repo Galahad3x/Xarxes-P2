@@ -17,4 +17,4 @@
 
 - (FET) Configurar LPS a la VLAN de Seguretat
 
-- Mirar com configurar Spanning Tree
+- (FET) Mirar com configurar Spanning Tree
