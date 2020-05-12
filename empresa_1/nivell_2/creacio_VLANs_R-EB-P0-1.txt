@@ -1,7 +1,6 @@
 # Suposem que l'estat dels directoris és correcte
 
 vlan 2 name "Gestio de la xarxa"
-# Cervera quins ports li fiquem
 vlan 5 name "Expedicions"
 vlan 5 port default 1/2
 vlan 5 802.1q 1/1
