@@ -1,7 +1,7 @@
 # Suposem que l'estat dels directoris és correcte
 
 vlan 2 name "Gestio de la xarxa"
-# Cervera quins ports li fiquem
+vlan 2 port default 1/30-33
 vlan 3 name "Administracio"
 vlan 3 port default 1/5-7
 vlan 3 802.1q 1-2/1 # vlan 3 802.1q 1/1 , vlan 3 802.1q 2/1
