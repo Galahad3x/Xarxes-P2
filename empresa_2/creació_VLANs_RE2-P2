@@ -1,13 +1,13 @@
   
 vlan 2 name "Gestio de la xarxa"
 vlan 3 name "Administració"
-vlan 3 port default 1/3-7
+vlan 3 port default 1/2-6
 vlan 4 name "Comercial"
-vlan 4 port default 1/8-11
+vlan 4 port default 1/7-10
 vlan 5 name "Enginyeria"
-vlan 5 port default 1/12-15
+vlan 5 port default 1/11-14
 vlan 6 name "Magatzem"
-vlan 6 port default 1/16-18
+vlan 6 port default 1/15-17
 vlan 7 name "Servei post-venda"
 vlan 8 name "Servei pre-venda"
 vlan 9 name "Xarxa sense fil"
