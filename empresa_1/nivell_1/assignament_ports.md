@@ -1,12 +1,12 @@
 # Assignament Ports Nivell 1 - Empresa 1
 |    Rack   |                 Altres Racks connectats      |  PCs | PLCs | Seguretat | Climatització | Xarxa sense fils |          Extra          |
 |:---------:|:--------------------------------------------:|:----:|:----:|:---------:|:-------------:|:----------------:|:-----------------------:|
-| R-EA-PB   | 1-R-EA-P1, 2-R-EA-P2, 3-R-EB-P1, 4-R-EB-P0-0 | 5-13 |   -  |   14-18   |     19-20     |       21-24      | 25-29 (Sala multimèdia), 30 - 33 (Centre de gestió de xarxa) |
-| R-EA-P1   | 1-R-EA-P0                                    | 2-12 |   -  |   13-15   |     16-17     |       18-19      |            -            |
-| R-EA-P2   | 1-R-EA-P0                                    | 2-13 |   -  |   14-16   |     17-19     |       20-21      |            -            |
-| R-EB-P0-0 | 1-R-EA-P0, 2-R-EB-P0-1                       |  3-7 | 8-14 |   15-16   |       -       |       17-18      |            -            |
-| R-EB-P0-1 | 1-R-EB-P0-0                                  |  2-5 | 6-13 |   14-15   |       -       |       16-17      |            -            |
-| R-EB-P1   | 1-R-EA-P0                                    |  2-4 |   5  |    6-7    |       8       |         9        |            -            |
+| R-EA-PB   | 1/1-R-EA-P1, 1/2-R-EA-P2, 1/3-R-EB-P1, 1/4-R-EB-P0-0 | 1/5-1/13 |   -  |   1/14-18   |     1/19-20     |       1/21-1/24      | 2/1 (Servei MacroLan), 2/2-2/6 (Sala multimèdia), 2/7 - 2/10 (Centre de gestió de xarxa) |
+| R-EA-P1   | 8/1-R-EA-P0                                    | 8/2-12 |   -  |   8/13-8/15   |     8/16-8/17     |       8/18-8/19      |            -            |
+| R-EA-P2   | 8/1-R-EA-P0                                    | 8/2-8/13 |   -  |   8/14-8/16   |     8/17-8/19     |       8/20-8/21      |            -            |
+| R-EB-P0-0 | 8/1-R-EA-P0, 8/2-R-EB-P0-1                       |  8/3-8/7 | 8/8-8/14 |   8/15-8/16   |       -       |       8/17-8/18      |            -            |
+| R-EB-P0-1 | 8/1-R-EB-P0-0                                  |  8/2-8/5 | 8/6-8/13 |   8/14-8/15   |       -       |       8/16-8/17      |            -            |
+| R-EB-P1   | 8/1-R-EA-P0                                    |  8/2-8/4 |   8/5  |    8/6-8/7    |       8/8       |         8/9        |            -            |
 
 3 equips de seguretat a l'edifici A a cada planta.  
 4 equips de seguretat a l'edifici B als rack P0-0 i P0-1 i 2 equips a l'altell.  
