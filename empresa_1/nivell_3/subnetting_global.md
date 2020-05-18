@@ -1,3 +1,5 @@
+**Equips de xarxa: Ordre EA-PB, EA-P1, EA-P2, EB-P1, EB-P0-0, EB-P0-1**
+
 |Nom|Num-PCs|Mascara|Xarxa|Broadcast|Rang|Rang Usat|
 |---|---|---|---|---|---|---|
 |Produccio|	69|		255.255.255.128|	172.16.10.0|	172.16.10.127|		.1 a .126|	.1 a .69|		
@@ -7,8 +9,6 @@
 |Qualitat|	23|		255.255.255.224|	172.16.11.64|	172.16.11.95|		.65 a .94|	.65 a .87|		
 |Expedicions|	11|		255.255.255.240|	172.16.11.96|	172.16.11.111|		.97 a .110|	.97 a .107|
 |Equips de xarxa| 6 | 255.255.255.224| 192.168.5.0| 192.168.5.255| .1 a .255| .1 a .6|
-
-Equips de xarxa: Ordre EA-PB, EA-P1, EA-P2, EB-P1, EB-P0-0, EB-P0-1
 
 
 Passos:
