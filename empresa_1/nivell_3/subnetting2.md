@@ -1,6 +1,6 @@
 R-EA-PB
 
-|Nom|Num-PCs|Mascara|Xarxa|Broadcast|Rang|Rang Usat|
+|Nom|Num-PCs|Xarxa|Rang|Rang Usat|
 |---|---|---|---|---|---|---|
 |Produccio|	13|	172.16.10.0|		.1 a .126|	.1 a .69|		
 |Administracio|	34|	172.16.10.128|		.129 a .190|	.129 a .162|		
