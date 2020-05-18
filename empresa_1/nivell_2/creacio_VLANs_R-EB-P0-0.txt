@@ -11,6 +11,7 @@ bridge 5 protocol 1w
 vlan 6 name "PLC"
 ip interface PLC address 192.168.5.5 mask 255.255.255.224 vlan 6
 vlan 6 port default 1/8-14
+vlan 6 port default 8/19
 vlan 6 802.1q 1-2/1
 bridge 6 protocol 1w
 vlan 7 name "Produccio"
