@@ -1,4 +1,4 @@
-*R-EA-PB*
+**R-EA-PB**
 
 |Nom|Num-PCs|Xarxa|Rang|Rang Usat|
 |---|---|---|---|---|
@@ -9,7 +9,7 @@
 |Qualitat|	0|	172.16.11.64|	.65 a .94|-|		
 |Expedicions|	2|	172.16.11.96|		.97 a .110|	.97 a .98|
 
-R-EA-PB
+**R-EA-P1**
 
 |Nom|Num-PCs|Xarxa|Rang|Rang Usat|
 |---|---|---|---|---|
