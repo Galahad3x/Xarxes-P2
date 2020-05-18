@@ -1,4 +1,4 @@
-R-EA-PB
+*R-EA-PB*
 
 |Nom|Num-PCs|Xarxa|Rang|Rang Usat|
 |---|---|---|---|---|
