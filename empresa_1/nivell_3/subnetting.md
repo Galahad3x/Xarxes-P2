@@ -6,3 +6,12 @@
 |PLC	|	39|		255.255.255.192|	172.16.11.0|	172.16.11.63|		.1 a .62|	.1 a .39|		
 |Qualitat|	23|		255.255.255.224|	172.16.11.64|	172.16.11.95|		.65 a .94|	.65 a .87|		
 |Expedicions|	11|		255.255.255.240|	172.16.11.96|	172.16.11.111|		.97 a .110|	.97 a .107|
+
+
+Passos:
+
+1 => Per cada nombre de PCs, busquem la quantitat de bits per poder representar aquell nombre.
+
+2 => 2^(nombre de bits per representar el nombre de PCs) - 2.
+
+3 => Les adreces s'incrementen en base a al pas 2.
