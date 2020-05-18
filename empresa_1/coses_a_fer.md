@@ -19,7 +19,7 @@
 
 - (FET) Mirar com configurar Spanning Tree
 
-- Fer l'esquema lògic
+- (FET) Fer l'esquema lògic
 
 - Subnetting local
 
