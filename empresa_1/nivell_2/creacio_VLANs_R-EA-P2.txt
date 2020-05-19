@@ -6,38 +6,38 @@ vlan 2 name "Gestio de la xarxa"
 vlan 3 name "Administracio"
 ip interface Administracio address 192.168.5.3 mask 255.255.255.224 vlan 3
 vlan 3 port default 8/2-4
-vlan 3 802.1q 8/1
+vlan 3 802.1q 1/8
 bridge 3 protocol 1w
 vlan 4 name "Comercial"
 ip interface Comercial address 192.168.5.3 mask 255.255.255.224 vlan 4
 vlan 4 port default 8/5-6
-vlan 4 802.1q 8/1
+vlan 4 802.1q 1/8
 bridge 4 protocol 1w
 vlan 7 name "Produccio"
 ip interface Produccio address 192.168.5.3 mask 255.255.255.224 vlan 7
 vlan 7 port default 8/7-10
-vlan 7 802.1q 8/1
+vlan 7 802.1q 1/8
 bridge 7 protocol 1w
 vlan 8 name "Qualitat"
 ip interface Qualitat address 192.168.5.3 mask 255.255.255.224 vlan 8
 vlan 8 port default 8/11-13
-vlan 8 802.1q 8/1
+vlan 8 802.1q 1/8
 bridge 8 protocol 1w
 vlan 9 name "Climatitzacio"
 ip interface Climatitzacio address 192.168.5.3 mask 255.255.255.224 vlan 9
 vlan 9 port default 8/17-19
-vlan 9 802.1q 8/1
+vlan 9 802.1q 1/8
 bridge 9 protocol 1w
 vlan 10 name "Seguretat"
 ip interface Seguretat address 192.168.5.3 mask 255.255.255.224 vlan 10
 vlan 10 port default 8/14-16
 port-security 8/14-16 enable
 port-security 8/14-16 mac low 68:fc:b3:00:00:00 high 68:fc:b3:ff:ff:ff
-vlan 10 802.1q 8/1
+vlan 10 802.1q 1/8
 bridge 10 protocol 1w
 vlan 11 name "Xarxa sense fil"
 ip interface SenseFil address 192.168.5.3 mask 255.255.255.224 vlan 11
 vlan 11 port default 8/20-21
-vlan 11 802.1q 8/1
+vlan 11 802.1q 1/8
 bridge 11 protocol 1w
 
