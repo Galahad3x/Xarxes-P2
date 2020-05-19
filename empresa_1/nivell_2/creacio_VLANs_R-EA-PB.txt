@@ -49,3 +49,15 @@ ip interface SenseFil address 192.168.5.1 mask 255.255.255.224 vlan 11
 vlan 11 port default 1/21-24
 vlan 11 802.1q 1-4/1
 bridge 11 protocol 1w
+vlan port mobile 2/2-6
+vlan 3 mobile-tag enable
+vlan 4 mobile-tag enable
+vlan 5 mobile-tag enable
+vlan 7 mobile-tag enable
+vlan 8 mobile-tag enable
+vlan 3 ip 172.16.10.128 mask 255.255.255.192
+vlan 4 ip 172.16.10.192 mask 255.255.255.192
+vlan 5 ip 172.16.11.96 mask 255.255.255.240
+vlan 7 ip 172.16.10.0 mask 255.255.255.128
+vlan 8 ip 172.16.11.64 mask 255.255.255.224
+
