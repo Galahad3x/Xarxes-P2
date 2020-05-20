@@ -1,6 +1,6 @@
 # Suposem que l'estat dels directoris és correcte
-*ip interface* defineix les interficies.
-*bridge protcol* és spanning tree
+ip interface defineix les interficies.
+bridge protcol és spanning tree.
 vlan 12
 vlan 12 port default 8/1
 vlan 2 name "Gestio de la xarxa"
