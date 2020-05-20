@@ -13,7 +13,7 @@
   - Per problemes de seguretat, s'acostuma a cambiar aquesta VLAN nativa per una que no es emprada
   
   
-- Definir interfaces
+- (FET) Definir interfaces
 
 - (FET) Configurar LPS a la VLAN de Seguretat
 
