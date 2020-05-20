@@ -21,6 +21,6 @@
 
 - (FET) Fer l'esquema lògic
 
-- Subnetting local
+- (FET) Subnetting local
 
 - Taules d'encaminament
