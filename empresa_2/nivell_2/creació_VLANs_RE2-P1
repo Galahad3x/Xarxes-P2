@@ -9,9 +9,3 @@ vlan 6 name "Magatzem"
 vlan 7 name "Servei post-venda"
 vlan 8 name "Servei pre-venda"
 vlan 8 port default 1/12-16
-vlan 9 name "Xarxa sense fil"
-vlan 9 port default []/[]
-vlan 10 name "Seguretat"
-vlan 10 port default []/[]
-vlan 11 name "Climatització"
-vlan 11 port default []/[]
