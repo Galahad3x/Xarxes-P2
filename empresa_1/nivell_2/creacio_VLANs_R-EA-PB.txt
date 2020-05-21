@@ -1,9 +1,8 @@
 # Suposem que l'estat dels directoris és correcte
 
-vlan 12
-vlan 12 port default 1/1-4
-vlan 2 name "Gestio de la xarxa"
-vlan 2 port default 2/7-10
+vlan 1 name "Gestio de la xarxa"
+vlan 1 port default 2/7-10
+vlan 1 port default 1/1-4
 vlan 3 name "Administracio"
 ip interface Administracio address 192.168.5.1 mask 255.255.255.224 vlan 3
 vlan 3 port default 1/5-7
