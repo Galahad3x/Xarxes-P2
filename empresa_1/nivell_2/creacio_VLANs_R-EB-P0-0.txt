@@ -1,8 +1,7 @@
 # Suposem que l'estat dels directoris és correcte
 
-vlan 12
-vlan 12 port default 8/1-2
-vlan 2 name "Gestio de la xarxa"
+vlan 1 name "Gestio de la xarxa"
+vlan 1 port default 8/1-2
 vlan 5 name "Expedicions"
 ip interface Expedicions address 192.168.5.5 mask 255.255.255.224 vlan 5
 vlan 5 port default 8/3
