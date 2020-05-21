@@ -1,5 +1,4 @@
-Vlan 1 => LLiure, per evitar que qualsevol equip que es connecti a un port lliure no tingui accés a la resta de la xarxa. (Estàtica)
-Vlan 2 => Gestió de la xarxa (Estàtica)
+Vlan 1 => Vlan per defecte i de gestió de xarxa  
 Vlan 3 => Administració (Estàtica)
 Vlan 4 => Comercial (Estàtica)
 Vlan 5 => Expedicions (Estàtica)
@@ -9,4 +8,3 @@ Vlan 8 => Qualitat (Estàtica)
 Vlan 9 => Climatització (Estàtica)
 Vlan 10 => Seguretat (Estàtica)
 Vlan 11 => Wi-fi (xarxa sense fil) (Estàtica)
-Vlan 12 => Vlan sense utilitzar (per fer VLAN nativa)
