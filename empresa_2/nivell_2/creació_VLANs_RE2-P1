@@ -3,10 +3,10 @@ vlan 1 name "Gestio de la xarxa"
 vlan 1 port default 8/1
 vlan 3 name "Administració"
 vlan 3 port default 1/2-5
+vlan 3 802.1q 1/8
 vlan 4 name "Comercial"
 vlan 4 port default 1/6-11
-vlan 5 name "Enginyeria"
-vlan 6 name "Magatzem"
-vlan 7 name "Servei post-venda"
+vlan 4 802.1q 1/8
 vlan 8 name "Servei pre-venda"
 vlan 8 port default 1/12-16
+vlan 8 802.1q 1/8
