@@ -1,5 +1,5 @@
-  
-vlan 2 name "Gestio de la xarxa"
+vlan 1 name "Gestio de la xarxa"
+vlan 1 port default 8/1-2
 vlan 3 name "Administració"
 vlan 4 name "Comercial"
 vlan 5 name "Enginyeria"
