@@ -1,3 +1,17 @@
+# FALTA FER
+- Arreglar esquema logic nivell 3 empresa 1 ho faré jo Joel A quan tingui el png del moi a la nit
+  - Arreglar encaminament empresa 1 Joel A
+- Fer lo mateix amb l'empresa 2
+- PDF informe Armand
+- **ACABAR FASE 1**
+- Empresa 1: Modificar esquema físic per afegir el radio enllaç (Armand)
+- Empresa 1: Modificar esquema niv2 per afegir RNI i les vlans que sigui (Moi o Joel A)
+- Empresa 1: Modificar subnetting, encaminament i esquema niv3 per afegir RNI (Joel A)
+- Empresa 2: Modificar esquema fisic per afegir VLANs per 802.1q (Armand)
+- Empresa 2: Modificar esquema niv2 per afegir VLANs de seguretat i Climatització (Quants equips de cada havie? Buscar-ho Cervera o Roy)
+- Empresa 2: Modificar vlans de nivell 2 per afegir el que faci falta (Joel A)
+- Redactar merdes (Farre)
+
 # Xarxes-P2
 ## Subnetting
 - Les xarxes tenen la mateixa màscara a tots els racks  
