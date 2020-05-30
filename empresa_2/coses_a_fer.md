@@ -7,10 +7,6 @@
   
   *Nivell 3*
   
-  · Subnetting global (Joel F.)
-  
-  · Subnetting (Joel F.)
-  
   · Esquema de nivell 3
   
   · Taules d'encaminament
