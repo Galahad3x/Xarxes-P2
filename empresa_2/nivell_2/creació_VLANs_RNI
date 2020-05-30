@@ -1,6 +1,8 @@
   
 vlan 1 name "Gestio de la xarxa"
-vlan 1 port default 8/1
+vlan 1 port default 8/23-24
+lacp linkagg 2 size 2
+lacp agg 8/23-24
 vlan 3 name "Administració"
 vlan 3 port default 1/2-3
 vlan 3 802.1q 1/8
