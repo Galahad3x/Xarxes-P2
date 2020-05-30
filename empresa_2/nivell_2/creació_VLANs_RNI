@@ -4,9 +4,12 @@ vlan 1 port default 8/1
 vlan 3 name "Administració"
 vlan 3 port default 1/2-3
 vlan 3 802.1q 1/8
+bridge 3 protocol 1w
 vlan 6 name "Magatzem"
 vlan 6 port default 1/4-6
 vlan 6 802.1q 1/8
+bridge 6 protocol 1w
 vlan 7 name "Servei post-venda"
 vlan 7 port default 1/7-10
 vlan 7 802.1q 1/8
+bridge 7 protocol 1w
