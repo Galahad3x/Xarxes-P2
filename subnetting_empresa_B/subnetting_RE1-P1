@@ -1,7 +1,0 @@
-Nom                 Num-PCs     Xarxa               Rang
-Administracio       0           172.16.20.0         -
-Comercial           0           172.16.20.64        -
-Enginyeria          12          172.16.20.96        .97 a .108
-Post-venda          0           172.16.20.128       -
-Pre-venda           10          172.16.20.160       .161 a .170
-Magatzem            0           172.16.20.192       -
