@@ -6,4 +6,4 @@
 - Ordre de l'adreçament en l'empresa 2: R-E1-PB,R-E1-P1,R-E2-PB,R-E2-P1,R-E2-P2,R-RNI  
   -L'empresa 2 tindrà 54 adreces sense utilitzar
 ## Encaminament
-- Tots els routers tenen, com a adreça IP, l'adreça més baixa possible.
+- Tots els routers tenen, com a adreça IP, l'adreça més alta possible.
