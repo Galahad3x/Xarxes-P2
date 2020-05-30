@@ -6,4 +6,4 @@
 | R-E2-PB | 1/1 - R-E2-P1, 1/2 - R-E2-P2, | 1/5 - 1/13 | 1/14 (Servei MacroLAN), 1/15 - 1/18 (Centre de gestió de xarxa), 1/21-22 (Link Aggregation Group a E1), 1/23-24 (Link Aggregation Group a NI) |
 | R-E2-P1 | 8/1 - R-E2-PB                                           | 8/2 - 8/16 | -                                                               |
 | R-E2-P2 | 8/1 - R-E2-PB                                           | 8/2 - 8/17 | -                                                               |
-| RNI     | 8/1 - R-E2-PB                                           | 8/2 - 8/10 |8/23-24 (Link Aggregation Group a E2)|
+| RNI     | - | 8/2 - 8/10 |8/23-24 (Link Aggregation Group a E2)|
