@@ -1,0 +1,33 @@
+Empresa 1:
+
+Nivell 1:
+
+Esquema físic:
+
+- Consta la disposició real dels components de la xarxa inclòs el cablejat i el hardware.
+- Consten les VLAN que es passen per 802.1q i les que es passen per defecte.
+- Consten els enllaços utilitzats.
+- En cada equip, consta el port que s'empra per connectar amb un altre equip.
+- Per cada equip, s'especifica el model d'equip.
+- S'especifica el root STP/pri: Per defecte - 10. (L'administrador de xarxa pot establir la prioritat de switch en un valor més petit que el de el valor per defecte (32768). Això només s'ha d'implementar quan es té un coneixement profund de l'flux de trànsit a la xarxa.)
+
+Assignació de ports:
+
+- S'ha realitzat un taula per cada equip, tot especificant: Slot/port al qual es connecten altres racks, slot/port del nombre de PCs, PLCs, Seguretat, climatització, WIFI(actius, no previstos).
+
+Nivell 2:
+
+-Assignació de VLANs.
+-Esquema lògic on hi consta que hi ha connectat a cada rack i a la xarxa de gestió.
+-Creació de VLANs per cada rack tot especificant si es passen per 802.1q o deffault, aplicant spanning tree(bridge X protocol 1w), la definició d'interfícies(ip interface) i els ports de seguretat (port-security).
+
+Nivell 3:
+
+-Esquema lògic on es descriu la manera en que la informació flueix, tot mostrabt la adreça IP.
+-Càlcul del Subnetting global.
+  1 => Per cada nombre de PCs, busquem la quantitat de bits per poder representar aquell nombre.
+
+  2 => 2^(nombre de bits per representar el nombre de PCs) - 2.
+
+  3 => Les adreces s'incrementen en base a al pas 2.
+-Càlcul del Subnetting rack a rack.
