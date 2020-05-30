@@ -7,9 +7,9 @@
   
   *Nivell 3*
   
-  · Subnetting global
+  · Subnetting global (Joel F.)
   
-  · Subnetting
+  · Subnetting (Joel F.)
   
   · Esquema de nivell 3
   
