@@ -9,4 +9,4 @@
   
   · Esquema de nivell 3 (Joel F.)
   
-  · Taules d'encaminament (Programa Qliat@copyright.joelaumedes.net)
+  · Taules d'encaminament (Programa joelaumedes@ecorp.net)
