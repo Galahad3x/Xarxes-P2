@@ -1,3 +1,4 @@
+**Equips de xarxa: Ordre RE1-PB, RE1-P1, RE2-PB, RE2-P1, RE2-P2, RNI** 
 |Nom|Num-PCs|Mascara|Xarxa|Broadcast|Rang|Rang Usat|
 |-------|-------|-------|-------|-------|-------|-------|
 |Administració|35|255.255.255.192|172.16.20.0|172.16.20.63|.1 a .62|.1 a .35|
@@ -6,5 +7,3 @@
 |Magatzem|13|255.255.255.240|172.16.20.192|172.16.20.207|.193 a .206|.193 a .205|
 |Serveis post-venda|25|255.255.255.224|172.16.20.128|172.16.20.159|.129 a .158|.129 a .153|
 |Serveis pre-venda|25|255.255.255.224|172.16.20.160|172.16.20.191|.161 a .190|.161 a .185|
-
-**Equips de xarxa: Ordre RE1-PB, RE1-P1, RE2-PB, RE2-P1, RE2-P2, RNI** 
