@@ -1,4 +1,6 @@
 # FALTA FER
+- Arreglar esquema fisic empresa 1 i lag
+- Afegir lag a l'empresa 2
 - Arreglar esquema logic nivell 3 empresa 1 ho faré jo Joel A quan tingui el png del moi a la nit
   - Arreglar encaminament empresa 1 Joel A
 - Fer lo mateix amb l'empresa 2
