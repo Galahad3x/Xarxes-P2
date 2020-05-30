@@ -7,6 +7,6 @@
   
   *Nivell 3*
   
-  · Esquema de nivell 3
+  · Esquema de nivell 3 (Joel F.)
   
-  · Taules d'encaminament
+  · Taules d'encaminament (Joel F.)
