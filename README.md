@@ -10,6 +10,7 @@
 - Empresa 2: Modificar esquema fisic per afegir VLANs per 802.1q (Armand)
 - Empresa 2: Modificar esquema niv2 per afegir VLANs de seguretat i Climatització (Quants equips de cada havie? Buscar-ho Cervera o Roy)
 - Empresa 2: Modificar vlans de nivell 2 per afegir el que faci falta (Joel A)
+- Empresa 2: Modificar el subnetting, l'esquema de nivell 3 i les taules d'encaminament.
 - Redactar merdes (Farre)
 
 # Xarxes-P2
