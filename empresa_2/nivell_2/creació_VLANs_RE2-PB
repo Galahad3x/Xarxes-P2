@@ -42,3 +42,13 @@ vlan 8 802.1q 1/1
 vlan 8 802.1q 21-22/1
 bridge 8 protocol 1w
 bridge 8 priority 32758
+vlan 9 name "Climatitzacio"
+ip interface Climatitzacio address 192.168.18.1 mask 255.255.255.240 vlan 9
+vlan 9 port default 1/14-15
+vlan 9 802.1q 1/8
+bridge 9 protocol lw
+vlan 10 name "Seguretat"
+ip interface Seguretat address 192.168.18.1 mask 255.255.255.240 vlan 10
+vlan 10 port default 1/16-19
+vlan 10 802.1q 1/8
+bridge 10 protocol lw
