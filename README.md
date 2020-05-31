@@ -6,7 +6,7 @@
 - Fer lo mateix amb l'empresa 2 (esquema fet)
 - PDF informe Armand
 - **ACABAR FASE 1**
-- Empresa 1: Modificar subnetting, encaminament i esquema niv3 per afegir RNI (Joel A)
+- Empresa 1: Modificar subnetting, encaminament i (esquema niv3 FET) per afegir RNI (Joel A)
 - Empresa 2 FASE 2:
   - (FET) Afegir VLANs a Assignació VLANs
   - Modificar esquema físic i lògic per afegir les VLANs per 802.1q
