@@ -1,0 +1,10 @@
+VLAN 1 => Lliure, per evitar que qualsevol equip que es connecti a un port lliure no tingui accés a la resta de la xarxa. (Estàtica)
+VLAN 2 => Gestió de xarxa (Estàtica)
+VLAN 3 => Administració (Estàtica)
+VLAN 4 => Comercial (Estàtica)
+VLAN 5 => Enginyeria (Estàtica)
+VLAN 6 => Magatzem (Estàtica)
+VLAN 7 => Servei post-venda (Estàtica)
+VLAN 8 => Servei pre-venda (Estàtica)
+VLAN 9 => Climatització
+VLAN 10 => Seguretat
