@@ -1,15 +1,17 @@
-  
 vlan 1 name "Gestio de la xarxa"
 vlan 1 port default 8/1
 vlan 3 name "Administració"
-vlan 3 port default 1/2-5
+ip interface Administracio address 192.168.18.5 mask 255.255.255.240 vlan 3
+vlan 3 port default 8/2-5
 vlan 3 802.1q 1/8
 bridge 3 protocol 1w
 vlan 4 name "Comercial"
-vlan 4 port default 1/6-11
+ip interface Comercial address 192.168.18.5 mask 255.255.255.240 vlan 4
+vlan 4 port default 8/6-11
 vlan 4 802.1q 1/8
 bridge 4 protocol 1w
 vlan 8 name "Servei pre-venda"
-vlan 8 port default 1/12-16
+ip interface Prevenda address 192.168.18.5 mask 255.255.255.240 vlan 8
+vlan 8 port default 8/12-16
 vlan 8 802.1q 1/8
 bridge 8 protocol 1w
