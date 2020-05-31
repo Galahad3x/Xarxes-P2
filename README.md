@@ -6,12 +6,12 @@
 - Fer lo mateix amb l'empresa 2 (esquema fet)
 - PDF informe Armand
 - **ACABAR FASE 1**
-- Empresa 1: Modificar subnetting, encaminament i (esquema niv3 FET) per afegir RNI (Joel A)
+- Empresa 1: Modificar encaminament i (esquema niv3 FET) per afegir RNI (Joel A)
 - Empresa 2 FASE 2:
   - (FET) Afegir VLANs a Assignació VLANs
-  - Modificar esquema físic i lògic per afegir les VLANs per 802.1q
-  - Modificar assignació de ports per a afegir els ports que siguin
-  - Modificar creació VLANs nivell 2 per crear VLANs i passar-les per 802.1q, STP etc etc
+  - Modificar esquema físic i lògic per afegir les VLANs per 802.1q (Joel A logic Armand Fisic)
+  - Modificar assignació de ports per a afegir els ports que siguin (Joel A)
+  - Modificar creació VLANs nivell 2 per crear VLANs i passar-les per 802.1q, STP etc etc (Entre tots a la tarda del diumenge dia 31 de maig)
 ## Poso aquest comentari per saber com modificar el esquema lògic
     Equips seguretat i climatització:
       ·Edifici 1:
@@ -20,8 +20,6 @@
         ·Planta baixa, primera platai planata segona: 2 equips de climatització i 3 equips de seguretat.
       ·Nau industrial:
         ·2 equips de climatització i 3 equips de seguretat.
-
-- Empresa 2: Modificar vlans de nivell 2 per afegir el que faci falta (Joel A)
 - Redactar merdes (Farre)
 
 # Xarxes-P2
