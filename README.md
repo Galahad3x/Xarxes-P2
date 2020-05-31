@@ -1,7 +1,7 @@
 # FALTA FER
-- Arreglar esquema fisic empresa 1 (lacp i VLAN per defecte)
+- (FET) Arreglar esquema fisic empresa 1 (lacp i VLAN per defecte)
 - Afegir lag a l'esquema fisic emp2
-- Arreglar esquema logic nivell 3 empresa 1 ho faré jo Joel A quan tingui el png del moi a la nit
+- (FET) Arreglar esquema logic nivell 3 empresa 1 ho faré jo Joel A quan tingui el png del moi a la nit
   - Arreglar encaminament empresa 1 Joel A
 - Fer lo mateix amb l'empresa 2
 - PDF informe Armand
