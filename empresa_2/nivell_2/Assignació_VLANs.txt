@@ -6,4 +6,6 @@ VLAN 5 => Enginyeria (Estàtica)
 VLAN 6 => Magatzem (Estàtica)
 VLAN 7 => Servei post-venda (Estàtica)
 VLAN 8 => Servei pre-venda (Estàtica)
-VLAN 9 => Lliure (per fer la VLAN nativa)
+VLAN 9 => Seguretat
+VLAN 10 => Climatització
+VLAN 11 => Lliure (per fer la VLAN nativa)
