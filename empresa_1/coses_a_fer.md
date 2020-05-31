@@ -23,4 +23,4 @@
 
 - (FET) Subnetting local
 
-- Taules d'encaminament
+- (FET) Taules d'encaminament
