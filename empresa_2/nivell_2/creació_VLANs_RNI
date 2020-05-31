@@ -4,14 +4,17 @@ vlan 1 port default 8/23-24
 lacp linkagg 2 size 2
 lacp agg 8/23-24
 vlan 3 name "Administració"
+ip interface Administracio address 192.168.18.4 mask 255.255.255.240 vlan 3
 vlan 3 port default 8/2-3
 vlan 3 802.1q 23-24/8
 bridge 3 protocol 1w
 vlan 6 name "Magatzem"
+ip interface Magatzem address 192.168.18.4 mask 255.255.255.240 vlan 6
 vlan 6 port default 8/4-6
 vlan 6 802.1q 23-24/8
 bridge 6 protocol 1w
 vlan 7 name "Servei post-venda"
+ip interface Postvenda address 192.168.18.4 mask 255.255.255.240 vlan 7
 vlan 7 port default 8/7-10
 vlan 7 802.1q 23-24/8
 bridge 7 protocol 1w
