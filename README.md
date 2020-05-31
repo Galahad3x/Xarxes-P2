@@ -1,10 +1,4 @@
 # FALTA FER
-- (FET) Arreglar esquema fisic empresa 1 (lacp i VLAN per defecte)
-- (FET) Afegir lag a l'esquema fisic emp2
-- (FET) Arreglar esquema logic nivell 3 empresa 1 ho faré jo Joel A quan tingui el png del moi a la nit
-- Fer lo mateix amb l'empresa 2 (esquema fet)
-- PDF informe Armand
-- **ACABAR FASE 1**
 - Empresa 1: Modificar encaminament i (esquema niv3 FET) per afegir RNI (Joel A)
 - Empresa 2 FASE 2:
   - (FET) Afegir VLANs a Assignació VLANs
