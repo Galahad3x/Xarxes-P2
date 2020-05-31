@@ -1,4 +1,3 @@
-  
 vlan 1 name "Gestio de la xarxa"
 vlan 1 port default 8/1
 vlan 3 name "Administració"
