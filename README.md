@@ -11,7 +11,7 @@
 - Empresa 1: Modificar subnetting, encaminament i esquema niv3 per afegir RNI (Joel A)
 - Empresa 2: Modificar esquema fisic per afegir VLANs per 802.1q (Armand)
 - Empresa 2: Modificar esquema niv2 per afegir VLANs de seguretat i Climatització (Quants equips de cada havie? Buscar-ho Cervera o Roy)
-# Poso aquest comentari per saber com modificar el esquema lògic
+## Poso aquest comentari per saber com modificar el esquema lògic
     Equips seguretat i climatització:
       ·Edifici 1:
         ·Planta baixa i planta 1: 2 equips de climatització i 3 equips de seguretat.
@@ -19,7 +19,7 @@
         ·Planta baixa, primera platai planata segona: 2 equips de climatització i 3 equips de seguretat.
       ·Nau industrial:
         ·2 equips de climatització i 3 equips de seguretat.
-#-----------------------------------------------------------------------------------------
+
 - Empresa 2: Modificar vlans de nivell 2 per afegir el que faci falta (Joel A)
 - Redactar merdes (Farre)
 
