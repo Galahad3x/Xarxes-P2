@@ -20,3 +20,13 @@ ip interface Magatzem address 192.168.18.6 mask 255.255.255.240 vlan 6
 vlan 6 port default 8/15-17
 vlan 6 802.1q 1/8
 bridge 6 protocol 1w
+vlan 9 name "Climatitzacio"
+ip interface Climatitzacio address 192.168.18.6 mask 255.255.255.240 vlan 9
+vlan 9 port default 8/18-19
+vlan 9 802.1q 1/8
+bridge 9 protocol lw
+vlan 10 name "Seguretat"
+ip interface Seguretat address 192.168.18.6 mask 255.255.255.240 vlan 10
+vlan 10 port default 8/20-22
+vlan 10 802.1q 1/8
+bridge 10 protocol lw
