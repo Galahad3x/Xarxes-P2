@@ -1,7 +1,7 @@
 # COSES A FER
 # Empresa 1
 *- Fase 1*  
-· Tot acabat en teoria (@Joel Aumedes, falta alguna cosa?)  
+· (FET) Tot acabat.  
 *- Fase 2*    
 · Modificar l'esquema de nivell 3, modificar el subnetting i les taules d'encaminament.
 # Empresa 2
