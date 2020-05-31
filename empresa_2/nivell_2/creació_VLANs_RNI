@@ -17,3 +17,13 @@ ip interface Postvenda address 192.168.18.4 mask 255.255.255.240 vlan 7
 vlan 7 port default 8/7-10
 vlan 7 802.1q 23-24/8
 bridge 7 protocol 1w
+vlan 9 name "Climatitzacio"
+ip interface Climatitzacio address 192.168.18.4 mask 255.255.255.240 vlan 9
+vlan 9 port default 8/11-12
+vlan 9 802.1q 1/8
+bridge 9 protocol lw
+vlan 10 name "Seguretat"
+ip interface Seguretat address 192.168.18.4 mask 255.255.255.240 vlan 10
+vlan 10 port default 8/13-15
+vlan 10 802.1q 1/8
+bridge 10 protocol lw
