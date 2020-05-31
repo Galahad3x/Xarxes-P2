@@ -30,5 +30,7 @@ bridge 9 protocol lw
 vlan 10 name "Seguretat"
 ip interface Seguretat address 192.168.18.2 mask 255.255.255.240 vlan 10
 vlan 10 port default 8/15-17
+port-security 8/15-17 enable
+port-security 8/15-17 mac low 68:fc:b3:00:00:00 high 68:fc:b3:ff:ff:ff
 vlan 10 802.1q 1/8
 bridge 10 protocol lw
