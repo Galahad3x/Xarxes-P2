@@ -1,10 +1,12 @@
 vlan 1 name "Gestio de la xarxa"
 vlan 1 port default 8/1
 vlan 5 name "Enginyeria"
+ip interface Enginyeria address 192.168.18.3 mask 255.255.255.240 vlan 5
 vlan 5 port default 8/2-6
 vlan 5 802.1q 1/8
 bridge 5 protocol 1w
 vlan 8 name "Servei pre-venda"
+ip interface Prevenda address 192.168.18.3 mask 255.255.255.240 vlan 8
 vlan 8 port default 8/7-10
 vlan 8 802.1q 1/8
 bridge 8 protocol 1w
