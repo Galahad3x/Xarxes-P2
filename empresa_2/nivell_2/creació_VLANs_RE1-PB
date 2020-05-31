@@ -22,3 +22,13 @@ ip interface Prevenda address 192.168.18.2 mask 255.255.255.240 vlan 8
 vlan 8 802.1q 2/8
 vlan 8 802.1q 23-24/8
 bridge 8 protocol 1w
+vlan 9 name "Climatitzacio"
+ip interface Climatitzacio address 192.168.18.2 mask 255.255.255.240 vlan 9
+vlan 9 port default 8/13-14
+vlan 9 802.1q 1/8
+bridge 9 protocol lw
+vlan 10 name "Seguretat"
+ip interface Seguretat address 192.168.18.2 mask 255.255.255.240 vlan 10
+vlan 10 port default 8/15-17
+vlan 10 802.1q 1/8
+bridge 10 protocol lw
