@@ -1,31 +1,44 @@
-  
 vlan 1 name "Gestio de la xarxa"
-vlan 1 port default 1/1-4
+vlan 1 port default 1/1-2
 vlan 1 port default 1/15-18
+lacp linkagg 1 size 2
+lacp agg 1/21-22
+lacp linkagg 2 size 2
+lacp agg 1/23-24
 vlan 3 name "Administració"
-vlan 3 802.1q 1-4/1
+ip interface Administracio address 192.168.18.1 mask 255.255.255.240 vlan 3
+vlan 3 802.1q 1-2/1
+vlan 3 802.1q 21-24/1
 bridge 3 protocol 1w
 bridge 3 priority 32758
 vlan 4 name "Comercial"
+ip interface Comercial address 192.168.18.1 mask 255.255.255.240 vlan 4
 vlan 4 port default 1/5-7
 vlan 4 802.1q 1-2/1
 bridge 4 protocol 1w
 bridge 4 priority 32758
 vlan 5 name "Enginyeria"
-vlan 5 802.1q 2-3/1
+ip interface Enginyeria address 192.168.18.1 mask 255.255.255.240 vlan 5
+vlan 5 802.1q 2/1
+vlan 5 802.1q 21-22/1
 bridge 5 protocol 1w
 bridge 5 priority 32758
 vlan 6 name "Magatzem"
-vlan 6 802.1q 2/1, vlan 6 802.1q 4/1 
+ip interface Magatzem address 192.168.18.1 mask 255.255.255.240 vlan 6
+vlan 6 802.1q 2/1
+vlan 6 802.1q 23-24/1
 bridge 6 protocol 1w
 bridge 6 priority 32758
 vlan 7 name "Servei post-venda"
+ip interface Postvenda address 192.168.18.1 mask 255.255.255.240 vlan 7
 vlan 7 port default 1/8-9
-vlan 7 802.1q 3-4/1
+vlan 7 802.1q 21-24/1
 bridge 7 protocol 1w
 bridge 7 priority 32758
 vlan 8 name "Servei pre-venda"
+ip interface Prevenda address 192.168.18.1 mask 255.255.255.240 vlan 8
 vlan 8 port default 1/10-13
-vlan 8 802.1q 1/1, vlan 8 802.1q 3/1
+vlan 8 802.1q 1/1
+vlan 8 802.1q 21-22/1
 bridge 8 protocol 1w
 bridge 8 priority 32758
